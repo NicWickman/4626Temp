@@ -10,4 +10,16 @@ remappings = [
   '@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/',
   '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/',
 ]
+# eth_rpc_url = "https://eth.llamarpc.com"
+block_number = 16833213
+verbosity = 4
+
+[rpc_endpoints]
+mainnet = "https://1rpc.io/eth"
+
+[etherscan]
+mainnet = { key = "4SVWAWDTMDDTHWWPUU1VHN2NBDAE7M8BR6" }
+
+[profile.dependencies]
+ethers = { git = "https://github.com/gakonst/ethers-rs" }
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
