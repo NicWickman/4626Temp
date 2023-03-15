@@ -3,9 +3,18 @@ pragma solidity ^0.8.3;
 
 import "@pwnednomore/contracts/PTest.sol";
 import "forge-std/StdInvariant.sol";
-import "tranche/BondController.sol";
-import {Tranche} from "tranche/Tranche.sol";
+
 import "../../src/Counter.sol";
+
+import {BondController} from "tranche/BondController.sol";
+import {Tranche} from "tranche/Tranche.sol";
+import {BondFactory} from "tranche/BondFactory.sol";
+import {LoanRouter} from "tranche/LoanRouter.sol";
+import {TrancheFactory} from "tranche/TrancheFactory.sol";
+import {UniV2LoanRouter} from "tranche/UniV2LoanRouter.sol";
+import {UniV3LoanRouter} from "tranche/UniV3LoanRouter.sol";
+import {WamplLoanRouter} from "tranche/WamplLoanRouter.sol";
+import {WethLoanRouter} from "tranche/WethLoanRouter.sol";
 
 contract BondControllerTest is PTest {
     uint256 forkId;

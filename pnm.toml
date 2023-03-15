@@ -3,4 +3,4 @@ name = "ethereum"
 
 [[project.external_contracts]]
 network = "ethereum"
-address = "0x73cDe49007Ff8f9eDf6C31AF4C2A713A7Eb6ac8b"
+address = "0x73cDe49007Ff8f9eDf6C31AF4C2A713A7Eb6ac8b" #
